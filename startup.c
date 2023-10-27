@@ -22,6 +22,13 @@ void TelaLogin(){
     }else{
         printf("\nDados inválidos\n");
     }
+    MostrarCadastro(){
+        printf("Seja bem vindo a StartUP");
+        printf("1) - Cadastro de Clientes\n");
+        printf("2) - Relatorios\n");
+        scanf("%d", &opcao);
+        getchar();
+    }
 
 
 }
